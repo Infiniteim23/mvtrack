@@ -43,36 +43,4 @@
 git clone https://github.com/yourname/mvtrack.git
 cd mvtrack
 pip install -r requirements.txt
-python3 mvtrack.py
-
-
-
-## 🧪 Command Usage Examples
-
-### 🆘 View Help Menu
-
-```bash
 python3 mvtrack.py --help
-
-- 🔍 File Analysis
-python3 mvtrack.py -f <filename> -v
-
-- 🌐 Nmap Scan
-python3 mvtrack.py -i <ip> -v
-
-- 🧠 Memory Scan (Scan running processes in system memory.)
-python3 mvtrack.py --memory
-
-- 📡 Network Analysis(Monitor and analyze suspicious packets on the network.)
-python3 mvtrack.py --network
-
-- 🧾 Output Results to JSON File
-python3 mvtrack.py -f <file> -o report.json
-
-- 🔍 CVE Search by Keyword
-python3 mvtrack.py -k <keyword>
-ex -
-python3 mvtrack.py -k "openssl"
-
-- 💉 Force VirusTotal Upload (skip cache)
-python3 mvtrack.py -f <file> --force
