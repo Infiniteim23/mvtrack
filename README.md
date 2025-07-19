@@ -45,15 +45,13 @@ cd mvtrack
 pip install -r requirements.txt
 python3 mvtrack.py
 
----
+
 
 ## 🧪 Command Usage Examples
 
 ### 🆘 View Help Menu
 
 ```bash
-python3 mvtrack.py --help
-
 python3 mvtrack.py --help
 
 - 🔍 File Analysis
