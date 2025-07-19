@@ -47,7 +47,12 @@ python3 mvtrack.py
 
 ---
 
-### 🚀 Usage
+## 🧪 Command Usage Examples
+
+### 🆘 View Help Menu
+
+```bash
+python3 mvtrack.py --help
 
 python3 mvtrack.py --help
 
